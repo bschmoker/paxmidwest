@@ -1,10 +1,9 @@
-App Engine application for the Udacity training course.
+Manage your local gaming conference in a flyover state
 
-## Products
-- [App Engine][1]
+## Requirements
+- [Sign up for Dev account on App Engine][1]
 
-## Language
-- [Python][2]
+- [Install App Engine Python SDK](https://cloud.google.com/appengine/downloads?hl=en_US#Google_App_Engine_SDK_for_Python)
 
 ## APIs
 - [Google Cloud Endpoints][3]
@@ -21,12 +20,11 @@ App Engine application for the Udacity training course.
    `$ git update-index --assume-unchanged app.yaml settings.py static/js/app.js`
 1. Run the app with the devserver using `dev_appserver.py DIR`, and ensure it's running by visiting your local server's address (by default [localhost:8080][5].)
 1. (Optional) Generate your client library(ies) with [the endpoints tool][6].
-1. Deploy your application.
+1. Deploy your application with `appcfg.py -A paxmidwest update app.yaml --noauth_local_webserver`
 
 
 [1]: https://developers.google.com/appengine
-[2]: http://python.org
 [3]: https://developers.google.com/appengine/docs/python/endpoints/
-[4]: https://console.developers.google.com/
+[4]: https://console.developers.google.com/apis/credentials
 [5]: https://localhost:8080/
 [6]: https://developers.google.com/appengine/docs/python/endpoints/endpoints_tool
